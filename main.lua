@@ -193,7 +193,7 @@ function StartVR()
     coroutine.wrap(function()
         for i = 1,600 do
             local Worked = pcall(function()
-                StarterGui:SetCore("VRLaserPointerMode",0)
+                StarterGui:SetCore("VRLaserPointerMode",1)
                 StarterGui:SetCore("VREnableControllerModels",false)
             end)
             if Worked then break end

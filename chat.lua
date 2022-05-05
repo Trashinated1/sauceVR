@@ -706,8 +706,7 @@ function StartVR()
             end
         elseif key.KeyCode == Enum.KeyCode.ButtonR2 or key.UserInputType == Enum.UserInputType.MouseButton2 then
             if SelectedKey then
-                firetouchinterest(Humanoid.RootPart, SelectedKey, 0)
-                wait()
+                firetouchinterest(Humanoid.RootPart, SelectedKey, 0)               
                 firetouchinterest(Humanoid.RootPart, SelectedKey, 1)
             end
             for _,tool in pairs(tools) do

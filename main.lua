@@ -6,7 +6,7 @@ getgenv().options = {
     DefaultCameraOption = "Default",
     
     --Bodyslots or Default (Bodyslots is buggy and)
-    Inventory = "Default" ,
+    Inventory = "Bodyslots" ,
     
     --Button to press to jump
     JumpButton = Enum.KeyCode.ButtonA,
